@@ -1,0 +1,213 @@
+/* Amirreza Heydari */
+:root {
+    --color1: #FFFFFF;
+    --color2: #5669FF;
+    --color3: #656161;
+    --color4: #000000;
+    --color5: #F3F1F1;
+
+}
+
+/* Font Poppins AH */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./fonts/Poppins/Poppins-Regular.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(./fonts/Poppins/Poppins-SemiBold.ttf) format('ttf');
+}
+
+/* Font Poppins AH */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400 !important;
+    overflow-x: hidden;
+    background-color: var(--color1) !important;
+}
+
+.nav-item a {
+    font-weight: 600 !important;
+    color: var(--color3) !important;
+}
+
+.nav-item a:hover,
+.nav-item>.active {
+    color: var(--color2) !important;
+}
+
+.btn-1 {
+    background-color: var(--color2) !important;
+    color: var(--color1) !important;
+    border-radius: 10px !important;
+    border: none !important;
+    font-weight: 600;
+}
+
+.btn-1:hover {
+    box-shadow: 0 0 15px var(--color2);
+}
+
+.w-140 {
+    width: 140px !important;
+}
+
+.h-50 {
+    height: 50px !important;
+}
+
+.welcome {
+    z-index: -1 !important;
+    top: -750px !important;
+}
+
+.h1 {
+    font-weight: 600 !important;
+    font-size: 52px !important;
+    color: var(--color4) !important;
+}
+
+.h1-s2 {
+    font-size: 52px !important;
+    color: var(--color2) !important;
+    font-weight: 600 !important;
+}
+
+.h1-sub {
+    font-size: 20px !important;
+    color: var(--color4) !important;
+    font-weight: 600 !important;
+}
+
+.h1-sub-white {
+    font-size: 20px !important;
+    color: var(--color1) !important;
+    font-weight: 600 !important;
+}
+
+.text {
+    font-size: 16px !important;
+    color: var(--color4) !important;
+    font-weight: 400 !important;
+    word-spacing: 2% !important;
+    line-height: 1.6em !important;
+}
+
+.text-2 {
+    font-size: 16px !important;
+    color: var(--color1) !important;
+    font-weight: 400 !important;
+    word-spacing: 2% !important;
+    line-height: 1.6em !important;
+}
+
+.border-input-1 {
+    border-width: 0 !important;
+    border-bottom-width: 2px !important;
+    border-style: solid !important;
+    border-color: var(--color3) !important;
+    border-radius: 10px !important;
+    padding-bottom: 1em !important;
+}
+
+.container-2 {
+    margin-top: -50em !important;
+}
+
+.card-new {
+    border: solid 1px var(--color5) !important;
+    background-color: var(--color1) !important;
+    box-shadow: 0px 21px 195px rgba(118, 111, 111, 0.09), 0px 4.69062px 43.5558px rgba(118, 111, 111, 0.0536497), 0px 1.39652px 12.9677px rgba(118, 111, 111, 0.0363503);
+    border-radius: 10px !important;
+}
+
+.text2 {
+    color: var(--color2) !important;
+    border-left: solid 5px var(--color2) !important;
+    padding-left: 1em !important;
+    font-weight: 600 !important;
+}
+
+.pt250 {
+    padding-top: 250px !important;
+}
+
+.map {}
+
+.map:nth-child(1) {
+    z-index: -1 !important;
+    margin-top: -100px !important;
+}
+
+.map:nth-child(2) {
+    z-index: 1 !important;
+    margin-top: -600px !important;
+}
+
+.border-bottom-1 {
+    border-bottom: solid 4px var(--color2) !important;
+    width: fit-content !important;
+}
+
+.pattern-svg {}
+
+.pattern-svg:nth-child(1) {
+    position: relative !important;
+    left: 55em !important;
+    top: -5em !important;
+    z-index: -1 !important;
+}
+
+.pattern-svg:nth-child(2) {
+    position: relative !important;
+    left: -5em !important;
+    bottom: -20em !important;
+    z-index: -1 !important;
+}
+
+.container-3 {
+    position: absolute !important;
+    z-index: -1 !important;
+}
+
+.bg-color-2 {
+    background-color: var(--color2) !important;
+}
+
+.line-height-1-6>* {
+    line-height: 2.6em !important;
+    ;
+}
+
+.border-bottom-2 {
+    border-top: solid 1px var(--color1) !important;
+    border-bottom: solid 1px var(--color1) !important;
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border 0.5s ease-in-out !important;
+}
+
+.border-bottom-2:hover {
+    border: 0 !important;
+    background-color: var(--color1) !important;
+    color: var(--color2);
+    border-radius: 5px !important;
+    padding: 0.2em;
+
+}
+
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+/* <!-- Code by Amirreza Heydari --> */
